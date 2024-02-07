@@ -1,0 +1,44 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+body{
+    font-family: 'Caveat', cursive;
+    background-image: url(../img/img/PuwoAuJ.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 1400px;
+    background-color: rgba(248, 248, 255, 0.5);
+}
+
+/* table style */
+.title {
+    -webkit-text-stroke: 1px rgb(173, 130, 137) ;
+    color: rgb(191, 128, 139);
+}
+th {
+    background-color: rgba(209, 151, 87, 0.5) ;
+}
+tr {
+    background-color: rgba(209, 151, 87, 0.2);
+}
+
+/* id elements */
+.headercontainer {
+    margin: auto;
+    padding: 10px; 
+    text-align: center;
+}
+#maintitle {
+    font-size: 3em;
+   
+}
+
