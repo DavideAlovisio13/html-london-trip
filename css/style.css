@@ -19,6 +19,9 @@ body{
     max-width: 1400px;
     background-color: rgba(248, 248, 255, 0.5);
 }
+main {
+    position: relative;
+}
 
 /* table style */
 .title {
@@ -37,8 +40,8 @@ th {
     padding: 10px;
     background-color: rgba(209, 151, 87, 0.5) ;
 }
-tr {
-    padding: 10px;
+td {
+padding: 5px 30px;
     background-color: rgba(209, 151, 87, 0.2);
 }
 
@@ -52,17 +55,27 @@ tr {
     font-size: 4em;
    
 }
+#lamp {
+    background-image: url(../img/img/lamp.svg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0%;
+    width: 17%;
+    height: 100%;
+}
 
 /* style section */
 .bgsect {
-    width: 50%;
+    width: 60%;
     margin: 25px auto;
 }
 .bgsect table {
     margin: auto;
+    
 }   
 ul {
-    list-style-image: url(../img/img/Progetto\ senza\ titolo\ \(3\).svg);
+    list-style-image: url(../img/img/Progetto\ senza\ titolo\ \(4\).svg);
 }
 
 .bgsect p, tr {
